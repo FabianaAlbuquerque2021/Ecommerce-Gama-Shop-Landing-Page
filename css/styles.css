@@ -441,6 +441,11 @@ footer .last {
     width: 390px;
     padding: 0px 10px;
   }
+  
+  section .email-form {
+    width: 390px;
+    padding: 0px 10px;
+  }
 
   .search-input {
     max-width: 700px;
@@ -482,6 +487,11 @@ footer .last {
   }
 
   .footer-links {
+    flex-direction: column;
+    padding-left: 10%;
+  }
+  
+  .menu {
     flex-direction: column;
     padding-left: 10%;
   }
