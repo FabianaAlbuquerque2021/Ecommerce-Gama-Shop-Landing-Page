@@ -8,3 +8,5 @@ Com uma contagem regressiva de quanto tempo falta para começar a Black Friday. 
 -Dados no localstorage.
 
 A linguagem de programação utilizada foi JavaScript. E para estrutura e estilização foi HTML e CSS puro.
+
+Link da Landing Page no Netlify: https://ecommerce-gama-shop-fabiana.netlify.app/
