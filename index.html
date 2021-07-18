@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" type="text/javascript"></script> 
+    <script src="js/contagemRegressiva.js" type="module"></script> 
+</head>
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <!-- Logo do ecommerce -->
+                <p class="brand"><img src="images\logo.png" alt="logo" width=160 height=160></p>
+                <!--Menu da landing page-->
+                <ul>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#ajuda">Ajuda</a></li>
+                    <button>Login</button>
+                </ul>
+            </nav>
+            <!-- Texto do bloco da Landing Page -->
+            <div class="header-block">
+                <div class="text">
+                    <h2> Essa Black Friday está imperdível!!!</h2>
+                    <p>
+                        Venham conferir as promoções dos produtos aqui no <strong>Gama Shop</strong>! 
+                        Você não vai se arrepender, tem produtos de várias categorias!
+                      </p>
+                </div>
+               <img src="images/Template_landing_page.png" alt="Black Friday"> <!-- Adicionando a imagem no bloco -->
+            </div>
+        </div>
+    </header>
+
+    <section>
+       <!-- Contagem Regressiva da Black Friday-->
+       <ul class="countdown">
+        <li>
+          <span data-time>00</span>
+          <div>Dia(s)</div>
+        </li>
+        <li>
+          <span data-time>00</span>
+          <div>Hora(s)</div>
+        </li>
+        <li>
+          <span data-time>00</span>
+          <div>Min.</div>
+        </li>
+        <li>
+          <span data-time>00</span>
+          <div>Seg.</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Catálogo de produtos do Ecommerce Gama Shop -->
+    <section class="catalog" id="catalog">
+        <div class="content">
+          <div class="title-wrapper-catalog">
+            <p>Encontre o que você quer:</p>
+            <h3>Catálogo</h3>
+          </div>
+          <div class="filter-card">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Escolha os produtos que quer comprar"
+            />
+            <button class="search-button">Buscar</button>
+          </div>
+          <div class="card-wrapper">
+            <div class="card-item">
+              <img src="images/produto_1.jpg" alt="Boneco do Hulk" />
+              <div class="card-content">
+                <h3>Boneco do Hulk - Vingadores</h3>
+                <p>
+                    Os bonecos Funko Pop de seus personagens 
+                    favoritos, para colecionar ou presentear alguém. Você encontra aqui! 
+                    Originais e únicos - Hulk - Avengers. Material atóxico, articulado em vários pontos, 
+                    detalhes perfeitos e pintura fiel ao personagem. Seu herói preferido e maior companheiro 
+                    de aventuras.
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_2.jpg" alt="Livro de Javascript" />
+              <div class="card-content">
+                <h3>Livro - JavaScript e JQuery</h3>
+                <p>
+                    Você é iniciante em JavaScript, ou adicionou scripts a sua página web mas quer entender 
+                    melhor como tudo funciona? Então este livro é para você. Não mostraremos apenas como ler e 
+                    escrever em JavaScript, mas também ensinaremos o básico sobre programação de computadores de 
+                    forma simples e visual. 
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_3.jpg" alt="Livro – HTML 5 e CSS 3: Guia Prático e Visual" />
+              <div class="card-content">
+                <h3>Livro – HTML 5 e CSS 3</h3>
+                <p>
+                    Aprenda HTML5 e CSS3 de forma rápida e fácil!•A abordagem de fácil visualização utiliza exemplos 
+                    de códigos do mundo real para guiá-lo pelo aprendizado de HTML e CSS, mostrando o que fazer em 
+                    etapas. Explicações e passos concisos permitem que você aprenda e coloque tudo em prática rapidamente.
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_4.jpg" alt="" />
+              <div class="card-content">
+                <h3>Notebook Acer Aspire 3 A315-56-3090</h3>
+                <p>
+                    Aproveite o melhor da tecnologia e execute todas as tarefas com o máximo de velocidade e 
+                    eficiência com o Notebook Acer Aspire 3 A315-56-3090. Projetado para entregar um desempenho 
+                    surpreendente, ele traz uma configuração poderosa que inclui processador Intel Core i3 da 10a 
+                    geração e 8GB de memória RAM com possibilidade de expansão para até 20GB.
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_5.jpg" alt="Notebook Gamer Acer Nitro 5" />
+              <div class="card-content">
+                <h3>Notebook Gamer Acer Nitro 5 AN515-54-58CL</h3>
+                <p>
+                   De olho no agitado mundo dos games, o notebook gamer Acer Aspire Nitro 5 AN515-54-58CL foi pensado 
+                   para que sua jogatina esteja garantida e você aproveite vários títulos com qualidade. Ele conta com 
+                   processador Intel Core i5-9300H, SSD de 128GB e HD de 1TB, placa de vídeo dedicada GeForce GTX 1650 
+                   com 4GB e tela de 15,6" Full HD. Possui painel IPS, tendo assim um amplo ângulo de visão.
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_6.jpg" alt="Notebook Dell Inspiron 3000" />
+              <div class="card-content">
+                <h3>Notebook Dell Inspiron 3000 3501-A20P</h3>
+                <p>
+                    Projetado para executar todas as principais tarefas do seu dia a dia com o máximo de praticidade e 
+                    eficiência, o Notebook Dell Inspiron 15 3000 389-DZBX é uma das melhores opções do mercado. 
+                    Sua configuração com processador Intel Core i3 da 10a geração e 4GB de memória RAM oferece 
+                    um desempenho extremamente rápido, além de excelente capacidade gráfica.
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_7.jpg" alt="Fone de ouvido Headset Gamer" />
+              <div class="card-content">
+                <h3>Fone de ouvido Headset Gamer LED</h3>
+                <p>
+                   Headphone com Microfone Inland G3000. Contêm: 1 HeadSet p3, 1 Adaptador P3, 1 Manual. 
+                   Informações técnicas: Tamanho do Alto-falante: 50mm. Impedância: 32 Ohm. Sensibilidade: 105dB + / - 3dB.
+                   Frequência: 18Hz-25KHz. Microfone: 6.0*2.2mm. Sensibilidade do Microfone: - 42dB + / - 2dB.
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_8.jpg" alt="Alexa" />
+              <div class="card-content">
+                <h3>Echo Dot 3ª Geração Smart Alexa</h3>
+                <p>
+                    O Echo Dot é o smart speaker de maior sucesso. Controlado por voz com a Alexa, ele é perfeito 
+                    para qualquer ambiente. Você pode pedir músicas, notícias, informações e muito mais. Além de ligar 
+                    para amigos e familiares e controlar dispositivos compatíveis de casa inteligente com sua voz.
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+            <div class="card-item">
+              <img src="images/produto_10.jpg" alt="Kit Gamer Mouse e Teclado V100" />
+              <div class="card-content">
+                <h3>Kit Gamer Mouse e Teclado V100</h3>
+                <p>
+                    O combo V-100 foi desenvolvido especialmente para você que gosta de conforto e beleza, o teclado 
+                    possuí teclas macias e nas cores vermelha,azul e roxa, com teclas macias e anti respingo. Já o mouse 
+                    possuí um design ergonômico, cliques com um tempo de resposta muito alta e seu led brilham nas cores 
+                    vermelha,azul e roxa. 
+                </p>
+                <button type="button">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Campo do E-mail para cadastro que recebe a função cadastroEmail() para adicionar no localStorage-->
+      <section class="email" id="email">
+        <div class="email-form">
+            <h4>Cadastre seu e-mail para receber promoções:</h4>
+            <input type="email" id="inputEmail" class="email-input" placeholder="exemplo@mail.com"/>
+            <button type="button"  class="submit-button" onclick="cadastroEmail()">Enviar</button>
+          </div>
+      </section>
+
+      <!-- Seção Sobre da Landing Page -->
+      <section class="about" id="about">
+        <div class="content">
+          <div class="title-wrapper-about">
+            <p>Nossa história</p>
+            <h3>Sobre</h3>
+          </div>
+          <div class="about-content">
+            <div class="right">
+              <h3>Somos a Gama Shop - Um dos maiores Ecommerces da América Latina</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae ut inventore magni repellendus ab ad itaque facere. A
+                tenetur quam, nobis tempore illum laborum ipsa fuga, itaque
+                possimus repellat ad perspiciatis, velit reiciendis eos facilis
+                sapiente blanditiis quas officia hic beatae quibusdam! Quod
+                eligendi porro possimus voluptatum ad ipsum sapiente soluta,
+                maiores nobis tenetur adipisci officiis nisi illum quae natus
+                nostrum tempora accusantium blanditiis? Rem nesciunt illum
+                dolorum, perferendis quos consequatur suscipit cumque fugiat alias
+                sint repellat qui adipisci error est distinctio doloribus labore
+                sunt modi eos odio quibusdam dicta. Dignissimos voluptate illum
+                possimus quo. Ducimus repellat doloribus quisquam quidem?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Rodapé da Landing Page-->
+      <footer>
+        <div class="main">
+          <div class="content footer-links">
+            <div class="footer-company">
+              <h4>Companhia</h4>
+              <h6>Sobre</h6>
+              <h6>Contato</h6>
+            </div>
+            <div class="footer-categories">
+              <h4>Categorias</h4>
+              <h6>Eletrônicos</h6>
+              <h6>Brinquedos</h6>
+              <h6>Livros</h6>
+              <h6>Ajuda</h6>
+            </div>
+            <div class="footer-social">
+                <h4>Fique ligado(a) nas nossas redes sociais</h4>
+                    <img src="images/instagram.png" alt="Instagram">
+                    <img src="images/facebook.png" alt="Facebook">
+            </div>
+            <div class="footer-contact">
+              <h4>Contato</h4>
+              <h6>+55 11 99999-9999</h6>
+              <h6>contato@gamashop.com.br</h6>
+              <h6>R.Cap. Antônio Rosa, 376 - Cj. 32 - Pinheiros, São Paulo - SP, 01443-900</h6>
+            </div>
+          </div>
+        </div>
+        <div class="last">Fabiana de Albuquerque Silva - 2021 - Hiring Coders</div>
+      </footer>
+</body>
+</html>
